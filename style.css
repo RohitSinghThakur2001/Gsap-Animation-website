@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    
+    background-color: rgb(0, 0, 0);
+    color: #fff;
+    font-family: sans-serif;
+    position: relative;
+    overflow: hidden;
+}
+#main #page1{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    /* display: none; */
+    
+}
+#main nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3% 5%;
+
+
+}
+#main nav img{
+    height: 50px;
+}
+nav .nav-part2{
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 30px;
+}
+
+nav .nav-part3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+nav .nav-part3 button {
+    padding: 15px;
+    font-weight: 700;
+}
+
+#main .page1-center-text{
+    position: absolute;
+    left: 21%;
+    bottom: 25%;
+    font-size: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1  ;
+    z-index: 2;
+}
+#main .page1-center-text h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+#main .page1-center-text span{
+    background-color: brown;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 50px;
+
+}
+
+#main #scrollDown{
+    position: absolute;
+    bottom: 5%;
+    left: 45%;
+}
+
+#page1>img{
+    height: 200px;
+    position: absolute;
+    border-radius: 10px;
+}
+#page1 #img1{
+    bottom: 2%;
+    left: 80%;
+    
+}
+#page1 #img2{
+    bottom: 8%;
+    left: 18%;
+    height: 150px;
+
+}
+#page1 #img3{
+    bottom: 40%;
+    left: 5%;
+    
+}
+#page1 #img4{
+    bottom: 50%;
+    left: 65%;
+    height: 150px;
+    width: 250px;
+    scale: 1.1;
+    
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(0, 0, 0);
+    position: relative;
+    padding:10px 20px ;
+
+}
+#page2 p{
+    margin: 20px;
+    font-size: 35px;
+}
+#page2 h1{
+    margin: 30px 10px;
+    font-size: 50px;
+    color: #ffffff3b;
+}
